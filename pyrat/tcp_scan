@@ -1,0 +1,18 @@
+# Nmap 7.95 scan initiated Sat Nov  8 00:34:37 2025 as: /usr/lib/nmap/nmap --privileged -p- -A -oN tcp_scan 10.201.62.154
+Nmap scan report for 10.201.62.154
+Host is up (0.00071s latency).
+All 65535 scanned ports on 10.201.62.154 are in ignored states.
+Not shown: 65535 filtered tcp ports (no-response)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: power-device|firewall|WAP|router
+Running: APC embedded, Cisco ASA 9.X, Cisco embedded, Synology embedded
+OS CPE: cpe:/o:cisco:asa:9.2 cpe:/h:synology:rt1900ac
+OS details: APC Network Management Card 3, Cisco Adaptive Security Appliance (ASA 9.2), Cisco Aironet 3800-series WAP, Synology RT1900ac router
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   2.31 ms 10.201.62.154
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Nov  8 00:36:50 2025 -- 1 IP address (1 host up) scanned in 132.56 seconds
